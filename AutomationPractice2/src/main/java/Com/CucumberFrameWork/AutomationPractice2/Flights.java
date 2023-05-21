@@ -28,6 +28,7 @@ public class Flights {
 		Thread.sleep(3000);
 		WebElement returndate = driver.findElement(By.id("d2-btn"));
 		returndate.click();
+		//This is how to find element
 		
 	}
 
