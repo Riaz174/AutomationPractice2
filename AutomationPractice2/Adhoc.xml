@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functionaltestingsuite">
+	<listeners>
+		<listener class-name="Com.CucumberFrameWork.AutomationPractice2.Ilisteners"></listener>
+	</listeners>
+	<test name="Regressiontesting">
+	<parameter name="browser" value="Chrome"></parameter>
+	<parameter name="Wbsite" value="https://www.facebook.com"></parameter>
+<classes>
+ <!-- >class name="Com.CucumberFrameWork.AutomationPractice2.SignToAmazon"></class>
+<class name="Com.CucumberFrameWork.AutomationPractice2.TextOfVerification"></class>
+<class name="Com.CucumberFrameWork.AutomationPractice2.Points"></class>-->
+<class name="Com.CucumberFrameWork.AutomationPractice2.Property"></class>	
+</classes>	
+	</test>
+	<test name="RegressiontestingEdge">
+	<parameter name="browser" value="Edge"></parameter>
+	<parameter name="Wbsite" value="https://www.facebook.com"></parameter>
+<classes>
+<!-- --><class name="Com.CucumberFrameWork.AutomationPractice2.SignToAmazon"></class>
+<class name="Com.CucumberFrameWork.AutomationPractice2.TextOfVerification"></class>	
+</classes>	
+	</test>
+</suite>

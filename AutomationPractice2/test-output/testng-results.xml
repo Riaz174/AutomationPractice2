@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Functionaltestingsuite" duration-ms="49244" started-at="2023-06-26T17:12:23 EDT" finished-at="2023-06-26T17:13:12 EDT">
+    <groups>
+    </groups>
+    <test name="Regressiontesting" duration-ms="9315" started-at="2023-06-26T17:12:23 EDT" finished-at="2023-06-26T17:12:33 EDT">
+      <class name="Com.CucumberFrameWork.AutomationPractice2.Property">
+        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Com.CucumberFrameWork.AutomationPractice2.Property@3dfc5fb8]" name="Browsers" is-config="true" duration-ms="2398" started-at="2023-06-26T17:12:23 EDT" finished-at="2023-06-26T17:12:26 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Com.CucumberFrameWork.AutomationPractice2.Property@3dfc5fb8]" name="f" duration-ms="55" started-at="2023-06-26T17:12:26 EDT" finished-at="2023-06-26T17:12:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Com.CucumberFrameWork.AutomationPractice2.Property@3dfc5fb8]" name="afterMethod" is-config="true" duration-ms="6728" started-at="2023-06-26T17:12:26 EDT" finished-at="2023-06-26T17:12:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Com.CucumberFrameWork.AutomationPractice2.Property -->
+    </test> <!-- Regressiontesting -->
+    <test name="RegressiontestingEdge" duration-ms="39889" started-at="2023-06-26T17:12:33 EDT" finished-at="2023-06-26T17:13:12 EDT">
+      <class name="Com.CucumberFrameWork.AutomationPractice2.TextOfVerification">
+        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Com.CucumberFrameWork.AutomationPractice2.TextOfVerification@3ecd23d9]" name="Browsers" is-config="true" duration-ms="1761" started-at="2023-06-26T17:12:42 EDT" finished-at="2023-06-26T17:12:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers -->
+        <test-method status="PASS" signature="sign()[pri:1, instance:Com.CucumberFrameWork.AutomationPractice2.TextOfVerification@3ecd23d9]" name="sign" duration-ms="302" started-at="2023-06-26T17:12:43 EDT" finished-at="2023-06-26T17:12:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Com.CucumberFrameWork.AutomationPractice2.TextOfVerification@3ecd23d9]" name="afterMethod" is-config="true" duration-ms="6845" started-at="2023-06-26T17:12:51 EDT" finished-at="2023-06-26T17:12:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Com.CucumberFrameWork.AutomationPractice2.TextOfVerification@3ecd23d9]" name="Browsers" is-config="true" duration-ms="1788" started-at="2023-06-26T17:12:57 EDT" finished-at="2023-06-26T17:12:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers -->
+        <test-method status="PASS" signature="f()[pri:2, instance:Com.CucumberFrameWork.AutomationPractice2.TextOfVerification@3ecd23d9]" name="f" duration-ms="6355" started-at="2023-06-26T17:12:59 EDT" depends-on-methods="Com.CucumberFrameWork.AutomationPractice2.TextOfVerification.sign" finished-at="2023-06-26T17:13:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Com.CucumberFrameWork.AutomationPractice2.TextOfVerification@3ecd23d9]" name="afterMethod" is-config="true" duration-ms="6831" started-at="2023-06-26T17:13:06 EDT" finished-at="2023-06-26T17:13:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Com.CucumberFrameWork.AutomationPractice2.TextOfVerification -->
+      <class name="Com.CucumberFrameWork.AutomationPractice2.SignToAmazon">
+        <test-method status="PASS" signature="Browsers(java.lang.String,java.lang.String)[pri:0, instance:Com.CucumberFrameWork.AutomationPractice2.SignToAmazon@52f759d7]" name="Browsers" is-config="true" duration-ms="1854" started-at="2023-06-26T17:12:33 EDT" finished-at="2023-06-26T17:12:34 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsers -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Com.CucumberFrameWork.AutomationPractice2.SignToAmazon@52f759d7]" name="f" duration-ms="231" started-at="2023-06-26T17:12:34 EDT" finished-at="2023-06-26T17:12:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Com.CucumberFrameWork.AutomationPractice2.SignToAmazon@52f759d7]" name="afterMethod" is-config="true" duration-ms="6844" started-at="2023-06-26T17:12:35 EDT" finished-at="2023-06-26T17:12:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Com.CucumberFrameWork.AutomationPractice2.SignToAmazon -->
+    </test> <!-- RegressiontestingEdge -->
+  </suite> <!-- Functionaltestingsuite -->
+</testng-results>
